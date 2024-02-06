@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./LightMode.css" id="theme">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Saiyam Jain</title>
+</head>
+
+<body class="body fade-in">
+    <header>
+        <nav class="MainNav">
+            <a href="#MainBody" class="NavLink">SaiyamJain</a>
+            <a href="#AboutMe" class="NavLink">About Me</a>
+            <a href="#Education" class="NavLink">Education</a>
+            <a href="#Achievements" class="NavLink">Achievements</a>
+            <a href="#Skills" class="NavLink">Skills</a>
+            <a href="./blog.html" class="NavLink" target="_blank">Blog</a>
+            <input type="checkbox" id="checkboxInput" onchange="toggleTheme()">
+            <label for="checkboxInput" class="toggleSwitch"></label>
+        </nav>
+    </header>
+
+    <div class="MainBody" id="MainBody">
+        <div class="Name">
+            <div id="Description">
+                <div id="Name">
+                    <h3 id="Hi">Hi, I am</h3>
+                    <h1 id="Saiyam">Saiyam Jain,</h1>
+                    <p id="Welcome">Welcome to my <b>Portfolio</b></p>
+                </div>
+            </div>
+            <div class="Profile">
+                <img src="./profile.jpeg" alt="Profile-Image" class="Profile-Image">
+            </div>
+        </div>
+    </div>
+
+    <div class="MainBody" id="AboutMe">
+        <h1 class="Heading">About Me</h1>
+        <div id="AboutMyself">
+            <b>Welcome to my Portfolio</b>
+            <p>I like to <b>Dance</b>, <b>Play Chess</b> and <b>Play Basketball</b>.</p>
+            <p>I am also good at <b>Coding</b>, and like to do it.</p>
+            <div id="Hobbies">
+                <p>My hobbies include:</p>
+                <ul>
+                    <li>Dance</li>
+                    <li>Swimming</li>
+                    <li>Chess</li>
+                    <li>Basketball</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="MainBody" id="Education">
+        <h1 class="Heading">Education</h1>
+        <div class="EducationTable">
+            <table id="ContentOfEducation">
+                <tr class="row">
+                    <th class="data">Class</th>
+                    <th class="data">Name of Institute</th>
+                </tr>
+                <tr class="row">
+                    <td class="data">Class 10</td>
+                    <td class="data">S.D.Jain Modern School, Surat</td>
+                </tr>
+                <tr class="row">
+                    <td class="data">Class 12</td>
+                    <td class="data">R.M.G Maheshwari School, Surat</td>
+                </tr>
+                <tr class="row">
+                    <td class="data">College</td>
+                    <td class="data">International Institute of Information Tecnology, Hyderabad</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="MainBody" id="Achievements">
+        <h1 class="Heading">Achievements</h1>
+        <div class="ListAchievements">
+            <ul id="ListAchievements">
+                <li>Played Chess at State level</li>
+                <li></li>
+                <li>Swimming at District level</li>
+                <li></li>
+                <li>IOQC</li>
+                <li></li>
+                <li>Dance Competitions</li>
+            </ul>
+        </div>
+
+        <p id="EndOfAchievements">These reflect my passion and these have made me the person I am today</p>
+    </div>
+
+    <div class="MainBody" id="Skills">
+        <h1 class="Heading">Skills</h1>
+        <table id="ContentOfSkills">
+            <tr class="rowSkills">
+                <th>Technical Skills</th>
+                <th>Other Skills</th>
+            </tr>
+            <tr class="rowSkills">
+                <td>C / C++</td>
+                <td>Dance</td>
+            </tr>
+            <tr class="rowSkills">
+                <td>Web development (HTML,CSS,JavaScript)</td>
+                <td>Cooking</td>
+            </tr>
+            <tr class="rowSkills">
+                <td>Python</td>
+                <td>Painting</td>
+            </tr>
+            <tr class="rowSkills">
+                <td>MySQL</td>
+                <td>Chess</td>
+            </tr>
+        </table>
+    </div>
+
+    <footer>
+        <div class="Footer">
+            <div>
+                <h2 class="Heading">Socials</h2>
+            </div>
+            <div class="Socials">
+                <div class="social-icon" id="Instagram"><a
+                        href="https://www.instagram.com/saiyamjain20/?next=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsettings%2F%3F__coig_login%3D1"
+                        target="_blank"><i class="fab fa-instagram"></i></a></div>
+                <div class="social-icon" id="Github"><a href="https://github.com/SaiyamJain20" target="_blank"><i
+                            class="fab fa-github"></i></a> </div>
+                <div class="social-icon" id="LinkedIn"><a
+                        href="https://www.linkedin.com/in/saiyam-jain-ab08532b2?trk=contact-info" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a></div>
+                <div class="social-icon" id="GMail"><a href="mailto:saiyam.jain@students.iiit.ac.in"><i
+                            class="far fa-envelope"></i></a></div>
+            </div>
+            <div class="Resume">
+                <a download="" href="./Assignment.pdf" class="Resume" target="_blank">Resume</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./Script.js"></script>
+</body>
+</html>

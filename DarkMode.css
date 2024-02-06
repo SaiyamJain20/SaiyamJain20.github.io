@@ -1,0 +1,64 @@
+.MainNav{
+    background-image: linear-gradient(to right, rgba(8, 32, 62, 0.9), rgba(96, 105, 107, 0.9));
+    animation: gradientAnimation 3s ease infinite;
+    background-size: 200% 100%;
+    color: whitesmoke;
+}
+
+.MainBody{
+    background-image: linear-gradient(to right, #08203e, #60696b);
+    animation: gradientAnimation 3s ease infinite;
+    background-size: 200% 100%;
+    color: whitesmoke;
+}
+
+.Profile-Image{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+#ContentOfEducation{
+    border-color: whitesmoke;
+}
+
+.data{
+    border-color: whitesmoke;
+}
+
+.Resume{
+    color: black;
+    background-color: #BFC0C0; 
+}
+
+.comments-box{
+    background-color: black;
+    border: 1px solid #ced4da;
+}
+
+.Footer{
+    background-image: linear-gradient(to right, #08203e, #60696b);
+    animation: gradientAnimation 3s ease infinite;
+    background-size: 200% 100%;
+    color: whitesmoke;
+}
+
+.BlogContent{
+    background-image: linear-gradient(to right,rgba(96, 105, 107, 0.9) , rgba(8, 32, 62, 0.9));
+    border: solid 2px whitesmoke;
+    animation: gradientAnimation 3s ease infinite;
+    background-size: 200% 100%;
+    color: whitesmoke;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

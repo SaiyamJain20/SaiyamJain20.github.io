@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./LightMode.css" id="theme">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body class="body fade-in">
+    <header>
+        <nav class="MainNav">
+            <a href="./index.html" class="NavLink" style="font-size: large;" target="_blank">SaiyamJain</a>
+            <a href="#Blog1" class="NavLink">Blog 1</a>
+            <a href="#Blog2" class="NavLink">Blog 2</a>
+            <input type="checkbox" id="checkboxInput" onchange="toggleTheme()">
+            <label for="checkboxInput" class="toggleSwitch"></label>
+        </nav>
+    </header>
+
+    <div class="MainBody MainBlog" id="Blog1">
+        <div class="BlogTitle">
+            <h1>Blog 1</h1>
+            <h2>About lorem</h2>
+        </div>
+        <div class="BlogDate">
+            <h3>Posted on: 01/31/24</h3>
+        </div>
+        <div class="BlogContent">
+            <p class="TextBlog">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus enim corporis dolorem aperiam facere
+                fuga molestiae atque. Facere maiores at animi provident quam laborum rem magnam vel, perspiciatis, nulla
+                saepe.
+                Alias quod asperiores natus quo at voluptas ad modi laboriosam libero eveniet adipisci corrupti
+                voluptatum deserunt labore officiis neque, illo optio magni similique est magnam iusto nulla. Fuga,
+                veniam optio?
+                Nemo iure, expedita modi aut dolore doloribus. Dicta, ea similique. Officiis, odit. Molestiae,
+                consequuntur dolorum qui impedit tempore illo nostrum voluptate recusandae itaque, deserunt libero,
+                natus fuga temporibus saepe excepturi.
+                Natus aspernatur aut ullam debitis commodi! Corrupti, eum unde dignissimos vel quos dolorum natus.
+                Dolorem ipsum eveniet placeat nostrum, eligendi a minima illo quis, tempora commodi ipsam aspernatur
+                iusto est.
+                Natus iste, numquam ab dolorum soluta amet vel libero? Nam soluta eveniet inventore doloribus, explicabo
+                eos numquam reiciendis cum, est, repellat voluptatem temporibus omnis? In possimus nulla soluta
+                veritatis a?
+                Asperiores, nostrum ipsam? Totam ratione quasi deleniti non explicabo eligendi facere voluptas ipsa
+                adipisci laudantium hic consequatur, nam architecto tempore voluptatem facilis, perferendis cum ex eius
+                temporibus possimus culpa porro.
+                Veniam quia dolore dolorem officia est perspiciatis iste ab labore, autem commodi assumenda distinctio
+                voluptates nemo. Dolorum accusantium porro molestias similique magnam blanditiis illo natus odio
+                dignissimos! Illo, deleniti dolore!
+                Vel voluptate eos soluta quod iusto fugit quibusdam hic natus, est nam possimus nostrum, esse neque
+                explicabo alias expedita! Obcaecati recusandae sequi fugiat id modi cumque ut deserunt, quod facilis?
+                Aliquid nostrum inventore exercitationem officia assumenda blanditiis amet excepturi dignissimos commodi
+                eligendi reiciendis adipisci ab, aliquam dolor deleniti ipsa nesciunt? Ipsa tenetur voluptate esse quas
+                officia eligendi suscipit repudiandae voluptatem.
+                Ipsum a excepturi ex officiis cum culpa illo consequuntur, repellat praesentium asperiores itaque sit
+                odio nihil adipisci dolorem temporibus ullam, iure illum! Est esse voluptates tenetur sunt perferendis
+                consectetur numquam!
+            </p>
+            <p class="ReadMore">
+                <a href="./blog-1.html" class="ReadMore" target="_blank">Read More</a>
+            </p>
+        </div>
+
+        <div class="comments-box comments-box1">
+            <h3>Comments</h3>
+            <div class="Comments-display-input Comments-display-input1">
+                <div class="Comments-display Comments-display1">
+                    <h4>Previous Comments</h4>
+                    <ul class="comment-list comment-list1"></ul>
+                </div>
+
+                <form class="comment-form comment-form1">
+                    <textarea name="comment" placeholder="Add your comment" class="comment1"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+                <div class="likeButtonDiv">
+                    <button class="likeButton" data-id="1">
+                        <i class="far fa-heart"></i>
+                    </button>
+                    <span id="likeCount1">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="MainBody MainBlog" id="Blog2">
+        <div class="BlogTitle">
+            <h1>Blog 2</h1>
+            <h2>About whatever</h2>
+        </div>
+        <div class="BlogDate">
+            <h3>Posted on: 05/11/23</h3>
+        </div>
+        <div class="BlogContent">
+            <p class="TextBlog">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus enim corporis dolorem aperiam facere
+                fuga molestiae atque. Facere maiores at animi provident quam laborum rem magnam vel, perspiciatis, nulla
+                saepe.
+                Alias quod asperiores natus quo at voluptas ad modi laboriosam libero eveniet adipisci corrupti
+                voluptatum deserunt labore officiis neque, illo optio magni similique est magnam iusto nulla. Fuga,
+                veniam optio?
+                Nemo iure, expedita modi aut dolore doloribus. Dicta, ea similique. Officiis, odit. Molestiae,
+                consequuntur dolorum qui impedit tempore illo nostrum voluptate recusandae itaque, deserunt libero,
+                natus fuga temporibus saepe excepturi.
+                Natus aspernatur aut ullam debitis commodi! Corrupti, eum unde dignissimos vel quos dolorum natus.
+                Dolorem ipsum eveniet placeat nostrum, eligendi a minima illo quis, tempora commodi ipsam aspernatur
+                iusto est.
+                Natus iste, numquam ab dolorum soluta amet vel libero? Nam soluta eveniet inventore doloribus, explicabo
+                eos numquam reiciendis cum, est, repellat voluptatem temporibus omnis? In possimus nulla soluta
+                veritatis a?
+                Asperiores, nostrum ipsam? Totam ratione quasi deleniti non explicabo eligendi facere voluptas ipsa
+                adipisci laudantium hic consequatur, nam architecto tempore voluptatem facilis, perferendis cum ex eius
+                temporibus possimus culpa porro.
+                Veniam quia dolore dolorem officia est perspiciatis iste ab labore, autem commodi assumenda distinctio
+                voluptates nemo. Dolorum accusantium porro molestias similique magnam blanditiis illo natus odio
+                dignissimos! Illo, deleniti dolore!
+                Vel voluptate eos soluta quod iusto fugit quibusdam hic natus, est nam possimus nostrum, esse neque
+                explicabo alias expedita! Obcaecati recusandae sequi fugiat id modi cumque ut deserunt, quod facilis?
+                Aliquid nostrum inventore exercitationem officia assumenda blanditiis amet excepturi dignissimos commodi
+                eligendi reiciendis adipisci ab, aliquam dolor deleniti ipsa nesciunt? Ipsa tenetur voluptate esse quas
+                officia eligendi suscipit repudiandae voluptatem.
+                Ipsum a excepturi ex officiis cum culpa illo consequuntur, repellat praesentium asperiores itaque sit
+                odio nihil adipisci dolorem temporibus ullam, iure illum! Est esse voluptates tenetur sunt perferendis
+                consectetur numquam!
+            </p>
+            <p class="ReadMore">
+                <a href="./blog-2.html" class="ReadMore" target="_blank">Read More</a>
+            </p>
+        </div>
+
+        <div class="comments-box comments-box2">
+            <h3>Comments</h3>
+            <div class="Comments-display-input Comments-display-input2">
+                <div class="Comments-display Comments-display2">
+                    <h4>Previous Comments</h4>
+                    <ul class="comment-list comment-list2"></ul>
+                </div>
+
+                <form class="comment-form comment-form2">
+                    <textarea name="comment" placeholder="Add your comment" class="comment2"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+
+                <div class="likeButtonDiv">
+                    <button class="likeButton" data-id="2">
+                        <i class="far fa-heart"></i>
+                    </button>
+                    <span id="likeCount2">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="Footer">
+            <div>
+                <h2 class="Heading">Socials</h2>
+            </div>
+            <div class="Socials">
+                <div class="social-icon" id="Instagram"><a
+                        href="https://www.instagram.com/saiyamjain20/?next=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsettings%2F%3F__coig_login%3D1"
+                        target="_blank"><i class="fab fa-instagram"></i></a></div>
+                <div class="social-icon" id="Github"><a href="https://github.com/SaiyamJain20" target="_blank"><i
+                            class="fab fa-github"></i></a> </div>
+                <div class="social-icon" id="LinkedIn"><a
+                        href="https://www.linkedin.com/in/saiyam-jain-ab08532b2?trk=contact-info" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a></div>
+                <div class="social-icon" id="GMail"><a href="mailto:saiyam.jain@students.iiit.ac.in"><i
+                            class="far fa-envelope"></i></a></div>
+            </div>
+            <div class="Resume">
+                <a download="" href="./Assignment.pdf" class="Resume" target="_blank">Resume</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./Script.js"></script>
+</body>
+
+</html>
